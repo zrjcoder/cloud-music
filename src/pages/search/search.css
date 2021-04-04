@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(45deg, rgba(254, 246, 210, 0.53) 0%, rgba(254, 246, 210, 0.53) 14.286%,rgba(221, 240, 216, 0.53) 14.286%, rgba(221, 240, 216, 0.53) 28.572%,rgba(188, 233, 223, 0.53) 28.572%, rgba(188, 233, 223, 0.53) 42.858%,rgba(156, 227, 229, 0.53) 42.858%, rgba(156, 227, 229, 0.53) 57.144%,rgba(123, 220, 235, 0.53) 57.144%, rgba(123, 220, 235, 0.53) 71.42999999999999%,rgba(90, 214, 242, 0.53) 71.43%, rgba(90, 214, 242, 0.53) 85.71600000000001%,rgba(57, 207, 248, 0.53) 85.716%, rgba(57, 207, 248, 0.53) 100.002%),linear-gradient(135deg, rgb(246, 99, 200) 0%, rgb(246, 99, 200) 12.5%,rgb(223, 98, 196) 12.5%, rgb(223, 98, 196) 25%,rgb(199, 97, 192) 25%, rgb(199, 97, 192) 37.5%,rgb(176, 96, 188) 37.5%, rgb(176, 96, 188) 50%,rgb(152, 95, 184) 50%, rgb(152, 95, 184) 62.5%,rgb(129, 94, 180) 62.5%, rgb(129, 94, 180) 75%,rgb(105, 93, 176) 75%, rgb(105, 93, 176) 87.5%,rgb(82, 92, 172) 87.5%, rgb(82, 92, 172) 100%);
+}
+.music-control {
+    position: fixed;
+    bottom: 1px;
+}
+.gua-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.div-search-plan {
+    margin: 20px;
+}
+.div-search-plan {
+    display: inline-block;
+}
+.input-song {
+    padding-left: 5px;
+}
+.button-search {
+    cursor: pointer;
+}
+
+.ul-cell {
+    display: flex;
+    flex-wrap: wrap;
+}
+.li-song {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.li-song:nth-of-type(even) {
+     background: #F7F7F7;
+     opacity: 1;
+}
+.li-song:hover {
+    background: #F2F2F2
+}
+.li-song div {
+    float: left;
+}
+.li-song .span-song-name {
+    width: 40%;
+    text-align:left;
+}
+.li-song .span-song-name span {
+    font-weight: bold;
+    color: #0C73C2;
+    cursor: pointer;
+}
+
+.li-song .span-song-name span:hover {
+    text-decoration: underline;
+}
+
+.li-song .span-song-artist {
+    width: 15%;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: left;
+}
+.li-song .span-song-album {
+    width: 30%;
+    color: grey;
+    font-size: 13px;
+}
+.li-song .span-song-duration {
+    width: 15%;
+}
